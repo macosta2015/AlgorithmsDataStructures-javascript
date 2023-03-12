@@ -6,5 +6,6 @@ function fibonacci(n) {
     return fib
 }
 
+//Testing the code
 console.log(fibonacci(2))
 console.log(fibonacci(3))
