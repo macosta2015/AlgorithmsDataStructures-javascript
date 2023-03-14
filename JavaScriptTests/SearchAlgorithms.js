@@ -1,4 +1,4 @@
-// Big O time complexity, as the number of the size increases, so does the search.
+// Big-O = O(n) time complexity, as the number of the size increases, so does the search.
 function linearSearch(arr, target) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === target) {
