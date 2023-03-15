@@ -1,4 +1,4 @@
-// Big-O = O(logn) 
+// Big-O = O(logn) The input size is reduced by half every time the function is called. 
 
 
 function recursiveBinarySearch(arr, target) {
