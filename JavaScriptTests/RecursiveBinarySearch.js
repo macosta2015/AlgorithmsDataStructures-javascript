@@ -1,3 +1,6 @@
+// Big-O = O(logn) 
+
+
 function recursiveBinarySearch(arr, target) {
     return search(arr, target, 0, arr.length - 1)
 }
