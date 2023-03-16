@@ -7,6 +7,7 @@ function quickSort(arr) {
         return arr
     }
     let pivot = arr[arr.length - 1]
+    console.log('This is the pivot: ' + pivot)
     let left = []
     let right = []
     for (let i = 0; i < arr.length - 1; i++) {
