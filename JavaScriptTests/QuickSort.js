@@ -11,12 +11,15 @@ function quickSort(arr) {
     console.log('This is the pivot: ' + pivot)
     let left = []
     let right = []
+
     for (let i = 0; i < arr.length - 1; i++) {
-        console.log('This is the arr[i]: ' + arr[i])
+        // console.log('This is the arr[i]: ' + arr[i])
         if (arr[i] < pivot) {
             left.push(arr[i])
+            console.log('Left array: ' + left)
         } else {
             right.push(arr[i])
+            console.log('Right array: ' + right)
         }
     }
 
