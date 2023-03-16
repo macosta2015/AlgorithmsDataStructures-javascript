@@ -3,6 +3,7 @@
 //It is really unlikely that you will sort and already sorted algorithm.
 
 function quickSort(arr) {
+    console.log('This is the current array value: ' + arr)
     if (arr.length < 2) {
         return arr
     }
@@ -11,12 +12,14 @@ function quickSort(arr) {
     let left = []
     let right = []
     for (let i = 0; i < arr.length - 1; i++) {
+        console.log('This is the arr[i]: ' + arr[i])
         if (arr[i] < pivot) {
             left.push(arr[i])
         } else {
             right.push(arr[i])
         }
     }
+
     return [...quickSort(left), pivot, ...quickSort(right)]
 }
 
