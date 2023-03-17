@@ -26,5 +26,6 @@ function quickSort(arr) {
     return [...quickSort(left), pivot, ...quickSort(right)]
 }
 
+//Sorting the below array: 
 const arr = [8, 20, -2, 4, -6]
 console.log(quickSort(arr))
