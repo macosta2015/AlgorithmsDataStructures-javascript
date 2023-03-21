@@ -1,3 +1,6 @@
+//Arrays are not from the same lenth. 
+//Big-O= O(M*n)
+
 function cartesianProduct(arr1, arr2) {
     const result = []
     for (let i = 0; i < arr1.length; i++) {
